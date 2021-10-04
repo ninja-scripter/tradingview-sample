@@ -1,0 +1,3 @@
+[submodule "tradingview"]
+	path = tradingview
+	url = https://github.com/super-vic114/tradingview
