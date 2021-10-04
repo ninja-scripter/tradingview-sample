@@ -18,7 +18,7 @@ In the example we are using ES6, which might be not supported by some older brow
 1. Clone [TradingView Charting Library][library-url]. For access instructions, see [Getting Started](getting-started.md).
 
     ```bash
-    git clone https://github.com/tradingview/charting_library charting_library_clonned_data
+    git clone https://github.com/tradingview/charting_library tradingview
     ```
 
 ## Adding a container
@@ -33,7 +33,7 @@ Create an initial HTML file [index.html](../index.html) in your project folder a
         <title>TradingView Charting Library example</title>
         <script
             type="text/javascript"
-            src="charting_library_clonned_data/charting_library/charting_library.js">
+            src="tradingview/charting_library/charting_library.js">
         </script>
 
         <!-- Custom datafeed module. -->
@@ -63,7 +63,7 @@ window.tvWidget = new TradingView.widget({
     fullscreen: true, // displays the chart in the fullscreen mode
     container: 'tv_chart_container',
     datafeed: Datafeed,
-    library_path: '../charting_library_clonned_data/charting_library/',
+    library_path: '../tradingview/charting_library/',
 });
 ```
 
